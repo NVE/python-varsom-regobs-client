@@ -1,0 +1,46 @@
+# RegistrationViewModel
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**reg_id** | **int** |  | [optional] 
+**geo_hazard_tid** | **int** |  | [optional] 
+**geo_hazard_name** | **str** |  | [optional] 
+**lang_key** | **int** |  | [optional] 
+**dt_obs_time** | **datetime** |  | [optional] 
+**dt_reg_time** | **datetime** |  | [optional] 
+**dt_change_time** | **datetime** |  | [optional] 
+**source_tid** | **int** |  | [optional] 
+**source_name** | **str** |  | [optional] 
+**observer** | [**ObserverViewModel**](ObserverViewModel.md) |  | [optional] 
+**obs_location** | [**ObsLocationViewModel**](ObsLocationViewModel.md) |  | [optional] 
+**attachments** | [**list[AttachmentViewModel]**](AttachmentViewModel.md) |  | [optional] 
+**avalanche_activity_obs** | [**list[AvalancheActivityObsViewModel]**](AvalancheActivityObsViewModel.md) |  | [optional] 
+**avalanche_activity_obs2** | [**list[AvalancheActivityObs2ViewModel]**](AvalancheActivityObs2ViewModel.md) |  | [optional] 
+**avalanche_danger_obs** | [**list[AvalancheDangerObsViewModel]**](AvalancheDangerObsViewModel.md) |  | [optional] 
+**avalanche_eval_problem2** | [**list[AvalancheEvalProblem2ViewModel]**](AvalancheEvalProblem2ViewModel.md) |  | [optional] 
+**avalanche_evaluation3** | [**AvalancheEvaluation3ViewModel**](AvalancheEvaluation3ViewModel.md) |  | [optional] 
+**avalanche_evaluation** | [**AvalancheEvaluationViewModel**](AvalancheEvaluationViewModel.md) |  | [optional] 
+**avalanche_obs** | [**AvalancheObsViewModel**](AvalancheObsViewModel.md) |  | [optional] 
+**compression_test** | [**list[CompressionTestViewModel]**](CompressionTestViewModel.md) |  | [optional] 
+**danger_obs** | [**list[DangerObsViewModel]**](DangerObsViewModel.md) |  | [optional] 
+**general_observation** | [**GeneralObservationViewModel**](GeneralObservationViewModel.md) |  | [optional] 
+**ice_cover_obs** | [**IceCoverViewModel**](IceCoverViewModel.md) |  | [optional] 
+**ice_thickness** | [**IceThicknessViewModel**](IceThicknessViewModel.md) |  | [optional] 
+**incident** | [**IncidentViewModel**](IncidentViewModel.md) |  | [optional] 
+**snow_profile** | [**AttachmentViewModel**](AttachmentViewModel.md) |  | [optional] 
+**land_slide_obs** | [**LandslideViewModel**](LandslideViewModel.md) |  | [optional] 
+**avalanche_eval_problem** | [**list[AvalancheEvalProblemViewModel]**](AvalancheEvalProblemViewModel.md) |  | [optional] 
+**snow_cover_obs** | [**SnowCoverObsViewModel**](SnowCoverObsViewModel.md) |  | [optional] 
+**snow_profile2** | [**SnowProfileViewModel**](SnowProfileViewModel.md) |  | [optional] 
+**snow_surface_observation** | [**SnowSurfaceViewModel**](SnowSurfaceViewModel.md) |  | [optional] 
+**water_level** | [**WaterLevelViewModel**](WaterLevelViewModel.md) |  | [optional] 
+**weather_observation** | [**WeatherViewModel**](WeatherViewModel.md) |  | [optional] 
+**water_level2** | [**Waterlevel2ViewModel**](Waterlevel2ViewModel.md) |  | [optional] 
+**damage_obs** | [**list[DamageObsViewModel]**](DamageObsViewModel.md) |  | [optional] 
+**avalanche_evaluation2** | [**AvalancheEvaluation2ViewModel**](AvalancheEvaluation2ViewModel.md) |  | [optional] 
+**summaries** | [**list[Summary]**](Summary.md) |  | [optional] 
+**attachment_summaries** | [**list[Summary]**](Summary.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
